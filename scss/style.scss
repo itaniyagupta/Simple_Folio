@@ -12,7 +12,7 @@ html {
 }
 body {
 	font-family: $font-primary;
-	background: $black;
+	background: $white;
 	font-size: 18px;
 	line-height: 1.8;
 	font-weight: 400;
@@ -113,7 +113,7 @@ h1, h2, h3, h4, h5,
 	padding: 0;
 	width: 100%;
 	height: 100%;
-	background: rgba($black,.99);
+	background: rgba($white,.99);
 	z-index: 1002;
 	text-align: center;
 	visibility: hidden;
@@ -149,7 +149,7 @@ h1, h2, h3, h4, h5,
 				bottom: 0;
 				right: 0;
 				content: '';
-				background: rgba($black,.3);
+				background: rgba($white,.3);
 			}
 			@include media-breakpoint-up(md){
 				opacity: 1;
